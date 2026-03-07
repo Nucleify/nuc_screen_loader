@@ -12,9 +12,9 @@
 </template>
 
 <script setup lang="ts">
-import { AdLogoSvg } from 'atomic'
-
 import { hideLoader } from '.'
+
+import { AdLogoSvg } from 'nucleify'
 
 onMounted(() => {
   hideLoader()
