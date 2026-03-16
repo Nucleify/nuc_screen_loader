@@ -27,7 +27,7 @@
       background: $p-card-background;
 
       &-value {
-        background: var(--main-item-secondary-color) !important;
+        background: $main-secondary-color !important;
         animation: change-background-color 1s ease-out forwards !important;
 
         &::before {
