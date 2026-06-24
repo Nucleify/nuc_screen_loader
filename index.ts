@@ -1,14 +1,4 @@
-/**
- *  Module's main file export
- */
+export { default as NucScreenLoader } from './index.vue'
 export * from './nuc_screen_loader'
 
-/**
- *  Folders exports
- */
-export * from './utils'
-
-/**
- *  Files exports
- */
-export { default as NucScreenLoader } from './index.vue'
+export * from './utils/hide_loader'

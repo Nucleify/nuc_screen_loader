@@ -8,11 +8,13 @@
 </template>
 
 <script setup lang="ts">
-import { AdLogoSvg } from 'nucleify'
-
-import { hideLoader } from '.'
+import { AdLogoSvg, hideLoader } from 'nucleify'
 
 onMounted(() => {
   hideLoader()
 })
 </script>
+
+<style lang="scss">
+@import 'index';
+</style>
